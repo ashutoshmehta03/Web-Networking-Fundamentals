@@ -87,44 +87,44 @@ The request–response model is a communication mechanism in which a client send
 1.  GET (Read Data):
     The client sends a request to retrieve data from the server.The server responds with the requested data.
 
-        Common Response Codes:
+    Common Response Codes:
 
-            1) 200 OK – Request successful
-            2) 304 Not Modified – Cached data used
-            3) 404 Not Found – Resource not available
+    1. 200 OK – Request successful
+    2. 304 Not Modified – Cached data used
+    3. 404 Not Found – Resource not available
 
 2.  POST (Create Data):
     The client sends data to the server to create a new resource.The server processes the data and confirms creation.
 
-        Common Response Codes:
+    Common Response Codes:
 
-            1) 201 Created – Resource created successfully
-            2) 400 Bad Request – Invalid data sent
-            3) 409 Conflict – Resource already exists
+    1. 201 Created – Resource created successfully
+    2. 400 Bad Request – Invalid data sent
+    3. 409 Conflict – Resource already exists
 
 3.  PUT (Update Full Data):
     The client requests a complete update of an existing resource. The server updates the resource and sends confirmation.
 
-        Common Response Codes:
+    Common Response Codes:
 
-            1) 200 OK – Update successful
-            2) 204 No Content – Updated, no response body
-            3) 404 Not Found – Resource not found
+    1. 200 OK – Update successful
+    2. 204 No Content – Updated, no response body
+    3. 404 Not Found – Resource not found
 
 4.  PATCH (Update Partial Data):
     The client requests partial modification of a resource. The server applies the changes and responds with success.
 
-        Common Response Codes:
+    Common Response Codes:
 
-            1) 200 OK – Partial update successful
-            2) 400 Bad Request – Invalid update data
+    1. 200 OK – Partial update successful
+    2. 400 Bad Request – Invalid update data
 
 5.  DELETE (Remove Data):
     The client requests deletion of a resource.
     The server deletes the resource and confirms the action.
 
-         Common Response Codes:
+    Common Response Codes:
 
-            1) 200 OK – Deleted successfully
-            2) 204 No Content – Deleted, no response body
-            3) 404 Not Found – Resource not found
+    1. 200 OK – Deleted successfully
+    2. 204 No Content – Deleted, no response body
+    3. 404 Not Found – Resource not found
